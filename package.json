@@ -1,0 +1,10 @@
+{
+  "name": "uber-clone",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix frontend\" \"npm start --prefix backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
